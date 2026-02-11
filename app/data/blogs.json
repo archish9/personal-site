@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "My First Blog Post on Medium",
+    "description": "An introduction to the world of web development and my journey so far. This post covers the basics of HTML, CSS, and JavaScript.",
+    "platform": "Medium",
+    "url": "https://medium.com/@your_username/your-blog-post-slug",
+    "image": "/images/blog-image-1.jpg",
+    "tags": ["Web Development", "JavaScript", "Beginner"]
+  },
+  {
+    "id": 2,
+    "title": "Understanding React Hooks",
+    "description": "A deep dive into React Hooks, explaining how they work and how to use them effectively in your React applications.",
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/your-article-slug/",
+    "image": "/images/blog-image-2.jpg",
+    "tags": ["React", "JavaScript", "Frontend"]
+  },
+  {
+    "id": 3,
+    "title": "Deploying a Next.js App with Vercel",
+    "description": "A step-by-step guide on how to deploy your Next.js application to Vercel, making it available to the world.",
+    "platform": "Personal Blog",
+    "url": "https://yourblog.com/deploying-nextjs-with-vercel",
+    "image": "/images/blog-image-3.jpg",
+    "tags": ["Next.js", "Deployment", "Vercel"]
+  },
+  {
+    "id": 4,
+    "title": "The Power of Tailwind CSS",
+    "description": "Exploring the utility-first approach of Tailwind CSS and how it can speed up your web development workflow.",
+    "platform": "Dev.to",
+    "url": "https://dev.to/your_username/your-post-slug",
+    "image": "/images/blog-image-4.jpg",
+    "tags": ["CSS", "Tailwind CSS", "Frontend"]
+  }
+]
