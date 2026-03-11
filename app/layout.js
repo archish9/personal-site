@@ -48,7 +48,7 @@ export const metadata = {
       'Senior full-stack engineer with 11+ years of experience building scalable systems, AI-powered applications, and RAG architectures.',
     images: [
       {
-        url: '/images/archish-patel.png',
+        url: '/images/archish-patel.webp',
         width: 320,
         height: 320,
         alt: 'Archish Patel',
@@ -60,7 +60,7 @@ export const metadata = {
     title: 'Archish Patel — Senior Full-Stack Developer & AI Engineer',
     description:
       'Senior full-stack engineer with 11+ years of experience building scalable systems and AI-powered applications.',
-    images: ['/images/archish-patel.png'],
+    images: ['/images/archish-patel.webp'],
   },
   robots: {
     index: true,

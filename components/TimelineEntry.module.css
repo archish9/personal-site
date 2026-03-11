@@ -1,27 +1,3 @@
-@keyframes nodePop {
-    from {
-        opacity: 0;
-        transform: scale(0.3);
-    }
-
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-@keyframes fadeSlideIn {
-    from {
-        opacity: 0;
-        transform: translateX(14px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
 .entry {
     display: grid;
     grid-template-columns: var(--timeline-left, 90px) 1fr;
@@ -65,15 +41,11 @@
         border-color var(--transition),
         transform var(--transition),
         box-shadow var(--transition);
-    opacity: 0;
-    animation: nodePop 0.35s ease forwards;
 }
 
 /* Right: article content */
 .content {
     padding: 0 0 3.5rem 2rem;
-    opacity: 0;
-    animation: fadeSlideIn 0.5s ease forwards;
 }
 
 /* Divider below each entry except last */

@@ -1,43 +1,4 @@
 /* ============================================
-   KEYFRAMES
-============================================ */
-@keyframes floatUp {
-  from {
-    opacity: 0;
-    transform: translateY(22px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes float {
-
-  0%,
-  100% {
-    transform: rotate(2.5deg) translateY(0px);
-  }
-
-  50% {
-    transform: rotate(2.8deg) translateY(-8px);
-  }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(14px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* ============================================
    HERO SECTION
 ============================================ */
 
@@ -49,9 +10,7 @@
   padding: 7rem 0 6rem;
 }
 
-.heroText {
-  animation: floatUp 0.8s ease 0.3s both;
-}
+
 
 .heroEyebrow {
   font-size: 0.72rem;
@@ -92,7 +51,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: floatUp 0.8s ease 0.5s both;
 }
 
 .heroImageContainer {
@@ -102,15 +60,13 @@
   border: 1px solid var(--border);
   border-radius: 4px;
   box-shadow: var(--shadow-md);
-  transform: rotate(2.5deg) translateY(0);
+  transform: rotate(2.5deg);
   transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-  animation: float 6s ease-in-out infinite;
 }
 
 .heroImageContainer:hover {
   transform: rotate(0deg) scale(1.02) translateY(-5px);
   box-shadow: var(--shadow-lg);
-  animation-play-state: paused;
 }
 
 /* Tape strip at the top */
@@ -152,7 +108,6 @@
 ============================================ */
 .writingSection {
   padding: 5rem 0 6rem;
-  animation: fadeInUp 0.7s ease 0.6s both;
 }
 
 .articleList {

@@ -84,7 +84,7 @@ export default function HomePage() {
         <div className={styles.heroImageWrapper}>
           <div className={styles.heroImageContainer}>
             <Image
-              src="/images/archish-patel.png"
+              src="/images/archish-patel.webp"
               alt="Archish Patel — Senior Full-Stack Developer and AI Engineer"
               width={320}
               height={320}
