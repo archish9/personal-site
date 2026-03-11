@@ -1,0 +1,41 @@
+.socialLinks {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+}
+
+.socialLink {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    letter-spacing: 0.02em;
+    transition: color var(--transition), gap var(--transition);
+}
+
+.socialLink svg {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
+.socialLink:hover {
+    color: var(--accent);
+    gap: 0.6rem;
+}
+
+.divider {
+    width: 1px;
+    height: 14px;
+    background: var(--border);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .socialLinks {
+        justify-content: center;
+    }
+}

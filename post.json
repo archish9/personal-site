@@ -1,0 +1,92 @@
+[
+	{
+		"title": "Exploring Playwright for Browser Automation",
+		"description": "Diving into the world of browser automation with Playwright! It's an amazing tool that allows you to automate web interactions across different browsers with ease.",
+		"date": "September 17, 2024",
+		"url": "https://www.linkedin.com/pulse/exploring-playwright-browser-automation-archish-patel-vjlnf/"
+	},
+	{
+		"title": "Excited to share my second post on Playwright automation!",
+		"description": "This time, I’m diving deeper into automating file uploads and downloads using Playwright. The code snippet I’m sharing shows how to upload images from one folder, resize them, and save them to another folder—all while making the process efficient with asyncio.",
+		"date": "September 22, 2024",
+		"url": "https://www.linkedin.com/pulse/excited-share-my-second-post-playwright-automation-archish-patel-6k1cf/"
+	},
+	{
+		"title": "The dataset preparation is an essential stag",
+		"description": "Even the most complex models will perform poorly if the data is not clean and organized, regardless of how smart your algorithms are. ",
+		"date": "March 21, 2025",
+		"url": "https://www.linkedin.com/posts/archishpatel_ai-machinelearning-datascience-activity-7301970962571313153-2LE4"
+	},
+	{
+		"title": "Building Scalable APIs with PHP and Laravel",
+		"description": "Designing APIs that can handle high traffic and scale efficiently isn’t just about writing code it’s about making smart architectural decisions.",
+		"date": "March 23, 2025",
+		"url": "https://www.linkedin.com/pulse/building-scalable-apis-php-laravel-archish-patel-outtf"
+	},
+	{
+		"title": "What are the reasons to study Computer Vision and Deep Learning in 2025?",
+		"description": "Are you ready to take the challenge and jump into the exciting world of Computer Vision and AI?",
+		"date": "March 30, 2025",
+		"url": "https://www.linkedin.com/pulse/what-reasons-study-computer-vision-deep-learning-2025-archish-patel-wqykf"
+	},
+	{
+		"title": "Advanced Python Design Patterns for Large-Scale Projects",
+		"description": "Think of “Advanced Python Design Patterns for Large-Scale Projects” as your blueprint book and advanced construction techniques for building really big and complex software in Python. It’s not just about writing code that works",
+		"date": "Apr 13, 2025",
+		"url": "https://archish9.medium.com/advanced-python-design-patterns-for-large-scale-projects-e7342ef2067e"
+	},
+	{
+		"title": "Little Bots, Smart Thoughts",
+		"description": "The past few years have been a blast for artificial intelligence, with large language models (LLMs) stunning everyone with their capabilities and powering everything from chatbots to code assistants.",
+		"date": "May 3, 2025",
+		"url": "https://archish9.medium.com/little-bots-smart-thoughts-2f1b88c303d3"
+	},
+	{
+		"title": "Guessing the number with TensorFlow",
+		"description": "If you are a beginner or already working with TensorFlow, this will help you understand how to make your models better.",
+		"date": "June 4, 2025",
+		"url": "https://www.linkedin.com/pulse/guessing-number-tensorflow-archish-patel-mfbnf"
+	},
+	{
+		"title": "Part 2 of Guessing the Number with TensorFlow",
+		"description": "let's stop our model training if the model is not improving or improvement is going down. We will also auto-save your model and set the experiment with a dynamic learning rate",
+		"date": "June 18, 2025",
+		"url": "https://www.linkedin.com/pulse/copy-part-2-guessing-number-tensorflow-archish-patel-fsfmf"
+	},
+	{
+		"title": "Let's Be Practical About Pentesting - Broken Access Control",
+		"description": "The thing no developer ever explores. A dream every college student dreams of (to be a hacker), but only a few make it real. Let’s see it step by step. So whenever someone asks what security measures you have taken, everyone will answer the following.",
+		"date": "June 19, 2025",
+		"url": "https://www.linkedin.com/pulse/lets-practical-pentesting-broken-access-control-archish-patel-w18sf"
+	},
+	{
+		"title": "The “next big thing” in IT",
+		"description": "The “next big thing” in IT that no one is talking about is usually something emerging at the edges of visibility just before it becomes mainstream.",
+		"date": "November 19, 2025",
+		"url": "https://www.linkedin.com/posts/archishpatel_the-next-big-things-in-it-that-no-one-is-activity-7372937518440235008-IpzE"
+	},
+	{
+		"title": "Prompt Enginnering",
+		"description": "What is prompt engineering exactly? And why is it so important?",
+		"date": "November 19, 2025",
+		"url": "https://www.linkedin.com/posts/archishpatel_prompt-engineering-activity-7373211468978282496-VtzY"
+	},
+	{
+		"title": "Let's Be Practical About Pentesting - Cryptographic Failures",
+		"description": "Imagine you have a super-secret diary where you write about your favorite games, your crush, or your plans to build the ultimate fort. You don't want your little brother or sister snooping in it, right?",
+		"date": "September 15, 2025",
+		"url": "https://www.linkedin.com/pulse/lets-practical-pentesting-cryptographic-failures-archish-patel-v62vf"
+	},
+	{
+		"title": "Turn a One-Time Deployment Into Unlimited, Lifetime Free AI Power",
+		"description": "We’re planning to deploy google/gemma-2-9b-it, and instead of setting up a full local environment with all the dependencies, we’ll use a Kaggle Notebook to handle the model preparation.",
+		"date": "December 11, 2025",
+		"url": "https://www.linkedin.com/pulse/turn-one-time-deployment-unlimited-lifetime-free-ai-power-patel-hbmpf/"
+	},
+	{
+		"title": "Let's Be Practical About Pentesting - Injection",
+		"description": "This comprehensive guide explores injection vulnerabilities through the lens of real-world exploitation, defensive engineering, and hard-learned lessons from major breaches.",
+		"date": "December 15, 2025",
+		"url": "https://www.linkedin.com/pulse/lets-practical-pentesting-injection-archish-patel-vp7gf"
+	}
+]

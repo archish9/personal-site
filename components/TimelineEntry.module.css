@@ -1,0 +1,151 @@
+@keyframes nodePop {
+    from {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateX(14px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.entry {
+    display: grid;
+    grid-template-columns: var(--timeline-left, 90px) 1fr;
+    gap: 0;
+    position: relative;
+}
+
+/* Left: date column */
+.dateCol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 28px;
+    padding-top: 0.15rem;
+    position: relative;
+}
+
+.date {
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    line-height: 1;
+    white-space: nowrap;
+    text-align: right;
+}
+
+/* Timeline circle node */
+.node {
+    position: absolute;
+    right: calc(6px - 0.5px);
+    top: 0.35rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--bg);
+    border: 1.5px solid var(--border);
+    transition:
+        background var(--transition),
+        border-color var(--transition),
+        transform var(--transition),
+        box-shadow var(--transition);
+    opacity: 0;
+    animation: nodePop 0.35s ease forwards;
+}
+
+/* Right: article content */
+.content {
+    padding: 0 0 3.5rem 2rem;
+    opacity: 0;
+    animation: fadeSlideIn 0.5s ease forwards;
+}
+
+/* Divider below each entry except last */
+.content::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: var(--border);
+    margin-top: 2.4rem;
+    opacity: 0.7;
+}
+
+.entry:last-child .content::after {
+    display: none;
+}
+
+.title {
+    font-family: var(--font-lora), serif;
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    transition: color var(--transition), transform var(--transition);
+    transform: translateX(0);
+}
+
+.entry:hover .title {
+    color: var(--accent);
+    transform: translateX(5px);
+}
+
+.entry:hover .node {
+    background: var(--accent);
+    border-color: var(--accent);
+    transform: scale(1.25);
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 15%, transparent);
+}
+
+.excerpt {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 520px;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    .entry {
+        grid-template-columns: 60px 1fr;
+    }
+
+    .date {
+        font-size: 0.65rem;
+    }
+
+    .content {
+        padding-left: 1.4rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .title {
+        font-size: 1.05rem;
+    }
+
+    .excerpt {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .entry {
+        grid-template-columns: 48px 1fr;
+    }
+}

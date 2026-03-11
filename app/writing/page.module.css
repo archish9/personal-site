@@ -1,0 +1,107 @@
+@keyframes floatUp {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes growLine {
+    from {
+        transform: scaleY(0);
+    }
+
+    to {
+        transform: scaleY(1);
+    }
+}
+
+/* ============================================
+   PAGE INTRO
+============================================ */
+.pageIntro {
+    padding: 5.5rem 0 4rem;
+    animation: floatUp 0.7s ease 0.2s both;
+}
+
+.pageTitle {
+    font-family: var(--font-lora), serif;
+    font-size: clamp(2.4rem, 5vw, 3.2rem);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    line-height: 1.15;
+}
+
+.pageSubtitle {
+    font-family: var(--font-lora), serif;
+    font-style: italic;
+    font-size: 1.0rem;
+    color: var(--text-secondary);
+    max-width: 560px;
+    line-height: 1.75;
+}
+
+/* ============================================
+   TIMELINE
+============================================ */
+.timelineSection {
+    padding-bottom: 7rem;
+}
+
+.timeline {
+    position: relative;
+    padding: 0.5rem 0;
+    list-style: none;
+}
+
+/* The vertical line running down the left */
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 90px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: var(--border);
+    transform-origin: top;
+    transform: scaleY(0);
+    animation: growLine 1.1s cubic-bezier(0.4, 0, 0.2, 1) 0.4s forwards;
+}
+
+/* ============================================
+   RESPONSIVE
+============================================ */
+@media (max-width: 640px) {
+    .pageIntro {
+        padding: 3.5rem 0 2.5rem;
+    }
+
+    .pageTitle {
+        font-size: 2rem;
+    }
+
+    .timeline::before {
+        left: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .pageIntro,
+    .timelineSection {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .timeline::before {
+        left: 48px;
+    }
+}

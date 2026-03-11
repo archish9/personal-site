@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+}
+
+.title {
+    font-family: var(--font-lora), serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: var(--text-primary);
+}
+
+.link {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+    transition: opacity var(--transition), letter-spacing var(--transition);
+}
+
+.link:hover {
+    opacity: 0.75;
+    letter-spacing: 0.04em;
+}
+
+.meta {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-bottom: 2.75rem;
+    letter-spacing: 0.03em;
+}

@@ -1,0 +1,171 @@
+@keyframes floatUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ============================================
+   PAGE INTRO
+============================================ */
+.pageIntro {
+    padding: 5.5rem 0 3.5rem;
+    animation: floatUp 0.7s ease 0.2s both;
+}
+
+.pageTitle {
+    font-family: var(--font-lora), serif;
+    font-size: clamp(2.4rem, 5vw, 3.2rem);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: var(--text-primary);
+    margin-bottom: 0.9rem;
+    line-height: 1.15;
+}
+
+.pageSubtitle {
+    font-family: var(--font-lora), serif;
+    font-style: italic;
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+}
+
+/* ============================================
+   DIVIDER
+============================================ */
+.divider {
+    height: 1px;
+    background: var(--border);
+    margin: 0 0 3.5rem;
+}
+
+/* ============================================
+   ESSAY
+============================================ */
+.essay {
+    animation: floatUp 0.7s ease 0.35s both;
+    max-width: 780px;
+}
+
+.essay p {
+    font-size: 1.0rem;
+    color: var(--text-secondary);
+    line-height: 1.85;
+    margin-bottom: 1.75rem;
+    max-width: 68ch;
+}
+
+.essay p:last-child {
+    margin-bottom: 0;
+}
+
+/* Drop-cap lead paragraph */
+.lead::first-letter {
+    font-family: var(--font-lora), serif;
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 0.85;
+    float: left;
+    margin: 0.08em 0.1em 0 0;
+    color: var(--text-primary);
+}
+
+.essay strong {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+/* ============================================
+   CALLOUT CARD
+============================================ */
+.calloutCard {
+    margin: 5rem 0 6rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 2.4rem 2.8rem;
+    max-width: 780px;
+    animation: floatUp 0.7s ease 0.55s both;
+    transition: background-color 0.4s ease, border-color 0.4s ease;
+}
+
+.calloutTitle {
+    font-family: var(--font-lora), serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 0.9rem;
+    letter-spacing: -0.01em;
+}
+
+.calloutBody {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    max-width: 58ch;
+}
+
+.calloutLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+    transition: gap var(--transition), opacity var(--transition);
+}
+
+.calloutLink:hover {
+    gap: 0.55rem;
+    opacity: 0.8;
+}
+
+.calloutLink::after {
+    content: '→';
+}
+
+/* ============================================
+   RESPONSIVE
+============================================ */
+@media (max-width: 640px) {
+    .pageIntro {
+        padding: 3.5rem 0 2.5rem;
+    }
+
+    .pageTitle {
+        font-size: 2rem;
+    }
+
+    .pageSubtitle {
+        font-size: 0.95rem;
+    }
+
+    .essay p {
+        font-size: 0.95rem;
+    }
+
+    .lead::first-letter {
+        font-size: 2.5rem;
+    }
+
+    .calloutCard {
+        padding: 1.8rem 1.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .pageIntro,
+    .essay,
+    .calloutCard {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}

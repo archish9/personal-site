@@ -1,0 +1,24 @@
+.toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-secondary);
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    transition: color var(--transition);
+}
+
+.toggle:hover {
+    color: var(--text-primary);
+}
+
+.toggle svg {
+    width: 18px;
+    height: 18px;
+    transition: transform 0.4s ease;
+}
+
+.toggle:hover svg {
+    transform: rotate(15deg);
+}
