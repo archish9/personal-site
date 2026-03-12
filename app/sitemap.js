@@ -1,5 +1,5 @@
 export default function sitemap() {
-    const baseUrl = 'https://archish.dev';
+    const baseUrl = 'https://iamnoob.in';
 
     return [
         {

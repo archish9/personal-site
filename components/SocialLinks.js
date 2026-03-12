@@ -55,7 +55,7 @@ export default function SocialLinks() {
 
             {/* Email */}
             <a
-                href="mailto:hello@archish.dev"
+                href="mailto:p.archish@live.com"
                 className={styles.socialLink}
                 aria-label="Email"
             >

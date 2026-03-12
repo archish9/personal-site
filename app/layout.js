@@ -20,7 +20,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://archish.dev'),
+  metadataBase: new URL('https://iamnoob.in'),
   title: {
     default: 'Archish Patel — Senior Full-Stack Developer & AI Engineer',
     template: '%s | Archish Patel',
@@ -36,12 +36,12 @@ export const metadata = {
     'Software Engineer',
     'Web Developer',
   ],
-  authors: [{ name: 'Archish Patel', url: 'https://archish.dev' }],
+  authors: [{ name: 'Archish Patel', url: 'https://iamnoob.in' }],
   creator: 'Archish Patel',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://archish.dev',
+    url: 'https://iamnoob.in',
     siteName: 'Archish Patel',
     title: 'Archish Patel — Senior Full-Stack Developer & AI Engineer',
     description:

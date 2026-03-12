@@ -12,13 +12,13 @@ export const metadata = {
     description:
         'Notes on AI engineering, system design, automation, and lessons from building software for over a decade.',
     alternates: {
-        canonical: 'https://archish.dev/writing',
+        canonical: 'https://iamnoob.in/writing',
     },
     openGraph: {
         title: 'Writing — Archish Patel',
         description:
             'Notes on AI engineering, system design, automation, and lessons from building software for over a decade.',
-        url: 'https://archish.dev/writing',
+        url: 'https://iamnoob.in/writing',
     },
 };
 

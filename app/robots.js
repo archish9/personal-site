@@ -6,6 +6,6 @@ export default function robots() {
                 allow: '/',
             },
         ],
-        sitemap: 'https://archish.dev/sitemap.xml',
+        sitemap: 'https://iamnoob.in/sitemap.xml',
     };
 }

@@ -5,13 +5,13 @@ export const metadata = {
     description:
         'About Archish Patel — a senior full-stack engineer with 11+ years of experience, focused on AI engineering, GenAI systems, and intelligent software.',
     alternates: {
-        canonical: 'https://archish.dev/about',
+        canonical: 'https://iamnoob.in/about',
     },
     openGraph: {
         title: 'About — Archish Patel',
         description:
             'Senior full-stack engineer with 11+ years of experience, focused on AI engineering, GenAI systems, and intelligent software.',
-        url: 'https://archish.dev/about',
+        url: 'https://iamnoob.in/about',
     },
 };
 
@@ -92,7 +92,7 @@ export default function AboutPage() {
                     understand, ask questions before writing a line, and prefer boring and correct over
                     clever and fragile.
                 </p>
-                <a href="mailto:hello@archish.dev" className={styles.calloutLink} aria-label="Get in touch">
+                <a href="mailto:p.archish@live.com" className={styles.calloutLink} aria-label="Get in touch">
                     Get in touch
                 </a>
             </div>

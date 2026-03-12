@@ -19,7 +19,7 @@ function generateJsonLd() {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Archish Patel',
-    url: 'https://archish.dev',
+    url: 'https://iamnoob.in',
     jobTitle: 'Senior Full-Stack Developer & AI Engineer',
     description:
       'Senior full-stack engineer with 11+ years of experience building scalable systems, AI-powered applications, and RAG architectures.',
@@ -27,7 +27,7 @@ function generateJsonLd() {
       'https://github.com/archish9',
       'https://linkedin.com/in/archishpatel',
     ],
-    image: 'https://archish.dev/images/archish-patel.png',
+    image: 'https://iamnoob.in/images/archish-patel.png',
     knowsAbout: [
       'Full-Stack Development',
       'AI Engineering',
@@ -43,7 +43,7 @@ export const metadata = {
   description:
     'Archish Patel is a senior full-stack engineer with 11+ years of experience building scalable systems, AI-powered applications, and RAG architectures.',
   alternates: {
-    canonical: 'https://archish.dev',
+    canonical: 'https://iamnoob.in',
   },
 };
 
