@@ -27,7 +27,7 @@ function generateJsonLd() {
       'https://github.com/archish9',
       'https://linkedin.com/in/archishpatel',
     ],
-    image: 'https://iamnoob.in/images/archish-patel.png',
+    image: 'https://iamnoob.in/images/archish-patel.webp',
     knowsAbout: [
       'Full-Stack Development',
       'AI Engineering',

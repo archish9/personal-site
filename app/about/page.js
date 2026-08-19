@@ -12,6 +12,21 @@ export const metadata = {
         description:
             'Senior full-stack engineer with 11+ years of experience, focused on AI engineering, GenAI systems, and intelligent software.',
         url: 'https://iamnoob.in/about',
+        images: [
+            {
+                url: '/images/archish-patel.webp',
+                width: 320,
+                height: 320,
+                alt: 'Archish Patel',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'About — Archish Patel',
+        description:
+            'Senior full-stack engineer with 11+ years of experience, focused on AI engineering, GenAI systems, and intelligent software.',
+        images: ['/images/archish-patel.webp'],
     },
 };
 

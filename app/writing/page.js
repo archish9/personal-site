@@ -19,6 +19,21 @@ export const metadata = {
         description:
             'Notes on AI engineering, system design, automation, and lessons from building software for over a decade.',
         url: 'https://iamnoob.in/writing',
+        images: [
+            {
+                url: '/images/archish-patel.webp',
+                width: 320,
+                height: 320,
+                alt: 'Archish Patel',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Writing — Archish Patel',
+        description:
+            'Notes on AI engineering, system design, automation, and lessons from building software for over a decade.',
+        images: ['/images/archish-patel.webp'],
     },
 };
 

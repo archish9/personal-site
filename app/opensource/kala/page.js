@@ -36,6 +36,21 @@ export const metadata = {
         description:
             'An MCP server that helps coding agents build production-grade frontend — work that reads as though an experienced designer made it, rather than a template filled in.',
         url: 'https://iamnoob.in/opensource/kala',
+        images: [
+            {
+                url: '/images/archish-patel.webp',
+                width: 320,
+                height: 320,
+                alt: 'Archish Patel',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'kala (कला) — Archish Patel',
+        description:
+            'An MCP server that helps coding agents build production-grade frontend — work that reads as though an experienced designer made it, rather than a template filled in.',
+        images: ['/images/archish-patel.webp'],
     },
 };
 

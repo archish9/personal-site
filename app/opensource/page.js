@@ -12,6 +12,20 @@ export const metadata = {
         title: 'Opensource Contribution — Archish Patel',
         description: 'Open source projects I have built and contributed to.',
         url: 'https://iamnoob.in/opensource',
+        images: [
+            {
+                url: '/images/archish-patel.webp',
+                width: 320,
+                height: 320,
+                alt: 'Archish Patel',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Opensource Contribution — Archish Patel',
+        description: 'Open source projects I have built and contributed to.',
+        images: ['/images/archish-patel.webp'],
     },
 };
 
