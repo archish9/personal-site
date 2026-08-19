@@ -5,6 +5,7 @@ import styles from './Header.module.css';
 
 const navLinks = [
     { href: '/', label: 'Home' },
+    { href: '/opensource', label: 'Opensource' },
     { href: '/writing', label: 'Writing' },
     { href: '/about', label: 'About' },
 ];
